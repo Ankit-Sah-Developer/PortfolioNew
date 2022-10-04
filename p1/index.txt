@@ -1,0 +1,24 @@
+  <!-- Github Graph -->
+         <script src="/assets/js/gitG.js"></script>
+         <link rel="stylesheet" href="/assets/css/githubGraph.css" />
+     
+         <h2 data-aos="fade-up" data-aos-delay="300" >My <span class="txtc">Github</span>  Calander</h2> <br><br>
+         <div style="width:100%;"  data-aos="fade-up" data-aos-delay="400" class="calendar">
+         </div>
+     
+         <script>
+             GitHubCalendar(".calendar", "04psm");
+     
+             GitHubCalendar(".calendar", "04psm", { responsive: true });
+         </script>
+            <!-- Github Graph End -->
+
+            <div  class="STATISTICS" data-aos="fade-up" data-aos-delay="300">MY <span class="txtc">STATISTICS</span></div>
+            <div class="Circular_bar">
+            <div data-aos="fade-up" data-aos-delay="300"><div class="ring">1200+ Hrs Coding</div></div>
+            <div data-aos="fade-up" data-aos-delay="400"> <div class="ring"> 400+ DSA</div></div>
+            <div data-aos="fade-up" data-aos-delay="400"> <div class="ring"> 100+ Hrs Soft Skills</div></div>
+            <div data-aos="fade-up" data-aos-delay="500"> <div class="ring"> 230+ Git Commits</div></div>
+            <div data-aos="fade-up" data-aos-delay="600"> <div class="ring"> 2+ Group Projects</div></div>
+            <div data-aos="fade-up" data-aos-delay="700"> <div class="ring"> 5+ Solo Projects</div></div>
+            </div>

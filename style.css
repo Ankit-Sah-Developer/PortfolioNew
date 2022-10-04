@@ -407,7 +407,7 @@ section .title::after {
 }
 .skills .skills-content .right .line {
   height: 5px;
-  width: 100%;
+  width: 80%;
   background: lightgrey;
   position: relative;
 }
@@ -440,7 +440,7 @@ section .title::after {
   content: "see my work";
 } */
 .project .carousel .card {
-  background: #222;
+  background: #E07A5F;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
@@ -878,6 +878,8 @@ footer span a:hover {
     text-transform: uppercase;
     letter-spacing: 1px;
  } */
+
+  
  #resume h1 span {
     /* text-align: center; */
  }
@@ -888,35 +890,41 @@ footer span a:hover {
 
  .three h1{
 
-    /* text-align: center; */
+    text-align: center;
+    font-size: 30px;
  }
+
  
- #resume .header-col { padding-top: 9px; }
+ 
+ /* #resume .header-col { padding-top: 9px; }
  #resume .main-col { padding-right: 10%; }
  
  .education, .work {
     margin-bottom: 48px;
     padding-bottom: 24px;
     border-bottom: 1px solid #070707;
- }
+ } */
  #resume .info {
     font: 16px/24px 'librebaskerville-italic', serif;
     color: #6E7881;
     margin-bottom: 10px;
     margin-top: 9px;
  }
- #resume .info span {
+ /* #resume .info span {
     margin-right: 5px;
     margin-left: 5px;
  }
  #resume .date {
     font: 15px/24px 'opensans-regular', sans-serif;
     margin-top: 6px;
- }
+ } */
 
  #Education{
+  width: 80%;
     margin: auto;
-    margin-left: 300px;
+    /* border: 1px solid red; */
+   /* align-items: center; */
+    /* margin-left: 300px; */
  }
 
  .row{
@@ -927,7 +935,8 @@ footer span a:hover {
 
     #Education{
 
-      margin-left: 50px;
+      /* margin-left: 50px; */
+      margin: auto;
     }
 
     footer .social-links { font-size: 20px; }
@@ -951,6 +960,49 @@ footer span a:hover {
 
     #Education{
 
-        margin-left: 100px;
+        margin: auto;
     }
  }
+
+
+
+
+ 
+.STATISTICS{
+  font-size: 30px;
+  margin-top: 10%;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 5%;
+}
+.txtc{
+  font-size: 30px;
+  text-align: center;
+  color: #E07A5F;
+}
+.Circular_bar{
+
+  width: 80%;
+  margin: auto;
+ 
+  display: grid;
+  height: auto;
+  grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+  grid-gap:30px;
+  grid-auto-rows: minmax(100px,auto);
+  grid-auto-columns: minmax(50px , auto);
+  /* border: 1px solid red ; */
+
+  margin-bottom: 5%;
+}
+.Circular_bar > div{
+  /* text-align: center; */
+  border: 10px solid #E07A5F ;
+  /* width: 18%; */
+  font-weight: 600;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
